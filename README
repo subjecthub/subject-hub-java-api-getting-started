@@ -1,0 +1,6 @@
+Subjecthub Java API Getting started
+
+In order to compile and run this example execute the following commands:
+
+    $ ./gradlew clean build
+    $ ./gradlew run
