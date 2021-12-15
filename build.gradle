@@ -11,9 +11,7 @@ repositories {
 
 dependencies {
 
-    implementation files('lib/migratorydata-client-java.jar')
-    implementation files('lib/netty-all-4.1.60.Final.jar')
-    implementation files('lib/netty-tcnative-2.0.36.Final-linux-x86_64-rpm.jar')
+    implementation fileTree(dir: 'lib', include: ['*.jar'])
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
