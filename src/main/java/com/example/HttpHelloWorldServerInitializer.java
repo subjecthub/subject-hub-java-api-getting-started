@@ -1,4 +1,4 @@
-package com.migratorydata.example;
+package com.example;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;

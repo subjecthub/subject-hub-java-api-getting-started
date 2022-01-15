@@ -1,4 +1,4 @@
-package com.migratorydata.example;
+package com.example;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
